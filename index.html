@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+
+  
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .sec{
+        width: 100%;
+        height: 100%;
+       
+        margin: 50px ;
+        color: #000;
+        border-radius: 5px;
+        color: #000;
+        
+     
+    }
+
+    
+    .logo{
+     
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+.logo h1{
+    font-size: 2rem;
+}
+.h1{
+    display: flex;
+    border: 1px solid rgb(112, 100, 100);
+
+
+    
+
+}
+.div{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.header{
+    width: 95%;
+    height: 20%;
+}
+body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: white;
+
+  box-shadow: 2px 2px 2px gray;
+ 
+}
+
+
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;}
+
+.search{
+    width: 50%;
+    margin-left: 150px;
+    margin-top: 10px;
+    
+  
+}
+.icon{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.sec2{
+    display: flex;
+    width: 90%;
+    height: 100%;
+}
+.li{
+    margin-left: 40px;
+    margin-top: 30px;
+    gap: 40px;
+    height: 40px;
+    width: 100%;
+    background-position: right;
+   
+    transition: 1s;
+}
+.li:hover{
+    background-color: #d83566;
+    background-position: left;
+}
+.cardh{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    bottom: 80px;
+
+}
+.card{
+    padding: 40px;
+    box-shadow: 1px 1px  4px;
+    background-color: white;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+.cardh1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+
+}
+.r8{
+    width: 100%;
+    height: 80%;
+    margin-left: 150px;
+}
+.card h5{
+    margin-top: 10px;
+}
+.S{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+</style>
+
+<body>
+    <section class="sec">
+            <div class="header">
+                <div class="h1">
+                    <div class="div">
+                        <i class="fa-brands fa-youtube fa-2xl" style="color: #f00505;"></i> 
+                    </div>
+                    
+                        <div class="logo">
+                             <h1>Youtube</h1>
+                             </div>
+                
+                <div class="search">
+                    <form class="example" action="/action_page.php">
+                        <input type="text" placeholder="Search.." name="search">
+                      
+                      </form>
+                      
+                </div>
+                <div class="icon">
+                    
+                    <i class="fa-solid fa-bell fa-xl" style="color: #828c9b;"></i>
+                </div>
+            </div>
+        </div>
+    
+            </div>
+    </section>
+    <!-------section2-->
+    <section class="sec2">
+        <div class="left">
+           
+              <div class="li">
+                <i class="fa-solid fa-house fa-lg"></i>        Home
+              </div>
+
+             <div class="li">
+                <i class="fa-brands fa-internet-explorer fa-lg"></i> Explore
+             </div>
+
+               <div class="li">
+                <i class="fa-solid fa-circle-play fa-shake"></i>  Subscribe
+               </div>
+
+              <div class="li">
+                <i class="fa-solid fa-play"></i>   libary
+              </div>
+
+                <div class="li">
+                    <i class="fa-regular fa-clock fa-lg"></i>  History
+                </div>
+
+              <div class="li">
+                <i class="fa-brands fa-youtube fa-lg"></i>  Yours Videos
+              </div>
+
+             <div class="li">
+                <i class="fa-solid fa-clock fa-lg"></i>     Watch letter
+             </div>
+
+            <div class="li">
+                <i class="fa-solid fa-thumbs-up fa-lg"></i>  Liked Video   
+            </div>  
+            <h4 class="S">SUBSCRIPTIONS</h4> 
+            <div class="li">
+                <i class="fa-solid fa-user fa-beat fa-xl"></i>     Ania Palmir
+            </div>    
+            <div class="li">
+                <i class="fa-solid fa-user fa-beat fa-xl"></i>    The Puzzie World
+            </div>      
+            <div class="li">
+                <i class="fa-solid fa-user fa-beat fa-xl"></i>    Foodie appi
+            </div>            
+           
+
+        </div>
+      
+<div class="r8">
+    <div class="cardh">
+        <div class="card">
+<img src="Downloads/html.jpg">
+<h1>The Creative HTML5 & CSS3 Course </h1>
+<h5>developedbyed | Creative</h5>
+<h5>2M Views.1week ago</h5>
+        </div>
+        <div class="card">
+<img src="song.jpg">
+<h1>Hindi Song Remix </h1>
+<h5>17M Views. 1year ago</h5>
+        </div>
+        <div class="card">
+            <img src="Downloads/doremon.jpg">
+            <h1>Doraemon new episode in Hindi full episode in hindi dubbed</h1>
+            <h5>139K Views. 3 days ago</h5>
+        </div>
+
+    </div>
+    <div class="cardh1">
+        <div class="card">
+            <img src="Downloads/log in page.jpg">
+            <h1>How To Create a log in page</h1>
+            <h5>2M views.7days ago </h5>
+        </div>
+        <div class="card">
+            <img src="c:\Users\user\Downloads\papa.jpg">
+            <h1>Dilbaro - Full Video | Raazi | Alia Bhatt |</h1>
+            <h5>115M Views. 1year ago</h5>
+        </div>
+        <div class="card">
+            <img src="Downloads/banla natok.jpg">
+            <h2>Maya | মায়া | Full Natok | Musfiq R. Farhan | Keya Payel | Miftah Anaan | Bangla Natok 2024</h2>
+            <h5>16M Views. 1 Month ago</h5>
+        </div>
+  
+
+
+</div>
+      
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/1e12012fa4.js" crossorigin="anonymous"></script>
+</body>
+</html>
